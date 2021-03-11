@@ -1,0 +1,17 @@
+---
+title: "Test"
+permalink: reports/example_report
+output: 
+  md_document:
+    toc: yes
+    preserve_yaml: yes
+---
+
+
+```{r setup, echo=F, message=F}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo=F, fig.path='', fig.width = 10)
+```
+
+```{r test}
+plot(1:10)
+```
